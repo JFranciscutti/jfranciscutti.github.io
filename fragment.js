@@ -1,8 +1,8 @@
-class MiComponente extends HTMLElement {
+class MiComponentJacttis extends HTMLElement {
     constructor(){
         super();
         this.innerHTML = `<p> The velocipastor </p>`;
     }
 }
 
-customElements.define("team-jacttis", MiComponente)
+customElements.define("team-jacttis", MiComponentJacttis)
